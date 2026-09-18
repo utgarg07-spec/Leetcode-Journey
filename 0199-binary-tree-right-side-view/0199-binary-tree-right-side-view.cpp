@@ -11,36 +11,17 @@
  */
 class Solution {
 public:
-vector<vector<int>> levelWise(TreeNode* root, vector<vector<int>>& ans){
-    if(root == nullptr) return ans;
-    queue<TreeNode*> q;
-    q.push(root);
-    while(!q.empty()){
-        int size = q.size();
-        vector<int> level;
-        for(int i = 0; i < size; i++){
-            TreeNode* node = q.front();
-            q.pop();
-            level.push_back(node->val);
-            if(node->left != nullptr) {
-                q.push(node->left);
-            }
-            if(node->right != nullptr) {
-                q.push(node->right);
-            }
-        }
-        ans.push_back(level);
-    }   
-    return ans;
+void depthCheck(TreeNode* root, int depth,vector<int>& a){
+    if(root==nullptr) return;
+    if(depth==a.size()){
+        a.push_back(root->val);
+    }
+    depthCheck(root->right,depth+1,a);
+    depthCheck(root->left,depth+1,a);
 }
-
     vector<int> rightSideView(TreeNode* root) {
-        vector<vector<int>> a;
-        levelWise(root,a);
         vector<int> ans;
-        for(int i=0;i<a.size();i++){
-            ans.push_back(a[i].back());
-        }
+        depthCheck(root,0,ans);
         return ans;
     }
 };
