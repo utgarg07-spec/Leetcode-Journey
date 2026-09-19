@@ -37,4 +37,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0199-binary-tree-right-side-view) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0002-add-two-numbers) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
