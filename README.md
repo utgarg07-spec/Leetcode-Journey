@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
 ## Recursion
 |  |
 | ------- |
@@ -57,4 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
