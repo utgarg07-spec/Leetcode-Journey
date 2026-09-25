@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
+| [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
 | [0222-count-complete-tree-nodes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0222-count-complete-tree-nodes) |
+| [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 ## Newton's Method
 |  |
 | ------- |
