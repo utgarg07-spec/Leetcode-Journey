@@ -31,32 +31,4 @@ public:
         if(a==0) cnt++;
         return cnt;
     }
-      /*int solve(TreeNode* root, int& cnt) {
-        if (root == nullptr) return 2;
-        
-        int a = solve(root->left, cnt);
-        int b = solve(root->right, cnt);
-        
-        if (a == 0 || b == 0) {
-            cnt++;
-            return 1;
-        }
-        
-        if (a == 1 || b == 1) {
-            return 2;
-        }
-        
-        return 0;
-    }
-
-    int minCameraCover(TreeNode* root) {
-        if (root == nullptr) return 0;
-        int cnt = 0;
-        
-        if (solve(root, cnt) == 0) {
-            cnt++;
-        }
-        
-        return cnt;
-    }*/
 };
