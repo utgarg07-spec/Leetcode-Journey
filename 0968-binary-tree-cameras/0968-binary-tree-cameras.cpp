@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    /*int solve(TreeNode* root,int& cnt){
+    int solve(TreeNode* root,int& cnt){
         if(root==NULL) return 2;
        int a= solve(root->left,cnt);
         int b= solve(root->right,cnt);
@@ -27,11 +27,11 @@ public:
     int minCameraCover(TreeNode* root) {
         if(root==NULL) return 0;
         int cnt=0;
-        solve(root,cnt);
-        if(cnt==0) cnt++;
+        int a =solve(root,cnt);
+        if(a==0) cnt++;
         return cnt;
-    }*/
-      int solve(TreeNode* root, int& cnt) {
+    }
+      /*int solve(TreeNode* root, int& cnt) {
         if (root == nullptr) return 2;
         
         int a = solve(root->left, cnt);
@@ -58,5 +58,5 @@ public:
         }
         
         return cnt;
-    }
+    }*/
 };
