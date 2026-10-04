@@ -13,6 +13,7 @@ class Solution {
 public:
 void solve(TreeNode* root,int k, int& cnt,int& ans){
     if(root==nullptr) return;
+    if(ans!=0) return;
     solve(root->left,k,cnt,ans);
     cnt++;
     if(cnt==k){
