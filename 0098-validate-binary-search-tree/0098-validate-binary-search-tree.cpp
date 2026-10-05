@@ -11,45 +11,27 @@
  */
 class Solution {
 public:
-/*void solve(TreeNode* root, bool& check){
-    if(root==nullptr){
-        return;
-    }
-    if(root->left==nullptr&&root->right==nullptr) return;
-    if(root->left==nullptr&&root->right!=nullptr){
-        check = root->right->val>root->val? true:false;
-        if(!check) return;
-    }
-   else if(root->right==nullptr&&root->left!=nullptr){
-        check = root->left->val<root->val? true:false;
-        if(!check) return;
-    }
-   else if(root->val> root->left->val && root->val<root->right->val) check = true;
-    else{
-        check =false;
-        return;
-    }
-    solve(root->left,check);
-    solve(root->right, check);
-}*/
-void solve(TreeNode* root,vector<int>& store){
+void solve(TreeNode* root,bool& check,long long& a){
     if(root==nullptr) return;
-    solve(root->left,store);
-    store.push_back(root->val);
-    solve(root->right,store);
+    if(!check) return;
+    solve(root->left,check,a);
+    if(!check) return;
+        if(a<root->val) {
+            check=true;
+            a=root->val;
+            }
+        else {
+            check=false;
+            return;
+        }
+    solve(root->right,check,a);
 }
     bool isValidBST(TreeNode* root) {
         if (root==nullptr) return true;
         if(root->left==nullptr&&root->right==nullptr) return true;
-        vector<int> v;
-        solve(root,v);
-        bool check = true;
-        for(int i=1;i<v.size();i++){
-            if(v[i]<=v[i-1]){
-                check=false;
-              
-            }
-        }
+        bool check=true;
+        long long a=LLONG_MIN;
+        solve(root,check,a);
         return check;
     }
 };
