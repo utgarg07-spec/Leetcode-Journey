@@ -10,29 +10,14 @@
 
 class Solution {
 public:
-void insert(TreeNode* root,vector<TreeNode*>& a,TreeNode* p){
-    if(root==nullptr)return;
-    TreeNode* temp =root;
-    while(temp!=p){
-        a.push_back(temp);
-        temp = temp->val>p->val ? temp->left: temp->right;
-    }
-    a.push_back(temp);
-    return;
-}
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root==nullptr) return nullptr;
-        vector<TreeNode*> a;
-        insert(root,a,p);
-        vector<TreeNode*>b;
-        insert(root,b,q);
-        TreeNode* lca=nullptr;
-        int n = a.size()<b.size() ? a.size():b.size();
-        for(int i=0;i<n;i++){
-            if(a[i]==b[i]){
-                lca = a[i];
-            }
+        while(root){
+            if(p->val< root->val && q->val<root->val) root = root->left;
+            else if(p->val>root->val&&q->val>root->val) root=root->right;
+           else{
+            return root;
+           }
         }
-        return lca;
+        return nullptr;
     }
 };
