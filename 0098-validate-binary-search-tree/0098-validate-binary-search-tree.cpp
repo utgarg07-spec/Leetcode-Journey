@@ -11,14 +11,24 @@
  */
 class Solution {
 public:
-bool solve(TreeNode* root,long long max, long long min){
-    if(root==nullptr)return true;
-    if(root->val>=max||root->val<=min) return false;
-    return solve(root->left,root->val,min) && solve(root->right,max,root->val);
+void solve(TreeNode* root,long long& temp,bool& check){
+    if(root==nullptr) return;
+    if(!check) return;
+    solve(root->left,temp,check);
+    if(!check) return;
+    if(root->val>temp) temp=root->val;
+    else{
+        check=false;
+        return;
+    }
+    solve(root->right,temp,check);
 }
     bool isValidBST(TreeNode* root) {
-        long long max= LLONG_MAX;
-        long long min= LLONG_MIN;
-        return solve(root,max,min);
+        if (root==nullptr) return true;
+        if(root->left==nullptr&&root->right==nullptr) return true;
+       bool  check =true;
+       long long temp= LLONG_MIN;
+        solve(root,temp,check);
+        return check;
     }
 };
