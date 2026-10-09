@@ -11,114 +11,135 @@
  */
 class Solution {
 public:
-    TreeNode* deleteNode(TreeNode* root, int key) {
-        if(root==nullptr) return root;
-        if(root->val==key){
-            if(root->left==nullptr&&root->right==nullptr){
-                TreeNode* temp = root;
-                delete temp;
-                root=nullptr;
-                return root;
-            }
-            if(root->left==nullptr&&root->right!=nullptr){
-                TreeNode* temp=root;
-                root=temp->right;
-                delete temp;
-                return root;
-            }
-            if(root->right==nullptr&&root->left!=nullptr){
-                TreeNode* temp=root;
-                root=temp->left;
-                delete temp;
-                return root;
-            }
-            TreeNode* temp=root;
-            TreeNode* temp3 = temp->left;
-            TreeNode*  temp4 = temp->right;
-            TreeNode* temp5 = nullptr;
-            while(temp4){
-                temp5=temp4;
-                temp4 = temp4->left;
-            } 
-            temp5->left = temp3;
-            temp->left = nullptr;
-            root=temp->right;
+
+TreeNode* maxVal(TreeNode* root){
+    if(root==nullptr) return root;
+    TreeNode* temp=root;
+    TreeNode* par = nullptr;
+    while(temp){
+        par=temp;
+        temp=temp->right;
+    }
+    return par;
+}
+
+TreeNode* maxValPar(TreeNode* root){
+    if(root==nullptr) return root;
+    TreeNode* temp=root;
+    TreeNode* par = nullptr;
+    while(temp->right!=nullptr){
+        par=temp;
+        temp=temp->right;
+    }
+    return par;
+}
+
+void del(TreeNode* root,TreeNode* temp,TreeNode* parent_temp){
+    if(temp->left==nullptr&&temp->right==nullptr){
+        if(parent_temp->left==temp){
+            parent_temp->left=nullptr;
+        }
+        else{
+            parent_temp->right=nullptr;
+        }
+        delete temp;
+    }
+    else if((temp->left==nullptr&&temp->right!=nullptr)||(temp->right==nullptr&&temp->left!=nullptr)){
+        if(parent_temp->left==temp&&temp->right!=nullptr){
+            parent_temp->left=temp->right;
             temp->right=nullptr;
             delete temp;
-            return root;
         }
-        TreeNode* temp = root;
-        bool flag = false;
-        TreeNode* temp2=nullptr;
-        while(temp){
-             if(temp->val==key) {
-                flag = true;
-                break;
-            }
-            temp2 = temp;
-            temp = temp->val>key? temp->left:temp->right;
+        else if(parent_temp->left==temp&&temp->left!=nullptr){
+            parent_temp->left=temp->left;
+            temp->left=nullptr;
+            delete temp;
         }
-        if(!flag) return root;
-        if(temp->left==nullptr && temp->right==nullptr){
-            if(temp2->right==temp) temp2->right = nullptr;
-            else temp2->left= nullptr;
-             delete temp;
-             return root;
-        }
-        if(temp->right == nullptr&&temp->left!=nullptr) {
-            if(temp2->right==temp){
-                temp2->right = temp->left;
-                temp->left=nullptr;
-                delete temp;
-            }
-            else{
-                temp2->left=temp->left;
-                temp->left=nullptr;
-                delete temp;
-            }
-            return root;
-        }
-        if(temp->left == nullptr&&temp->right!=nullptr) {
-            if(temp2->right==temp){
-                temp2->right = temp->right;
-                temp->right=nullptr;
-                delete temp;
-            }
-            else{
-                temp2->left=temp->right;
-                temp->right=nullptr;
-                delete temp;
-            }
-            return root;
-        }
-        if(temp2->right==temp){
-            TreeNode* temp3 = temp->left;
-            TreeNode*  temp4 = temp->right;
-            TreeNode* temp5 = nullptr;
-            while(temp4){
-                temp5=temp4;
-                temp4 = temp4->left;
-            } 
-            temp5->left = temp3;
-            temp->left = nullptr;
-            temp2->right=temp->right;
-            temp->right=nullptr;
+        else if(parent_temp->right==temp&&temp->left!=nullptr){
+            parent_temp->right=temp->left;
+            temp->left=nullptr;
             delete temp;
         }
         else{
-            TreeNode* temp3 = temp->left;
-            TreeNode*  temp4 = temp->right;
-            TreeNode* temp5 = nullptr;
-            while(temp4){
-                temp5=temp4;
-                temp4 = temp4->left;
-            } 
-            temp5->left = temp3;
-            temp->left = nullptr;
-            temp2->left=temp->right;
+            parent_temp->right=temp->right;
             temp->right=nullptr;
             delete temp;
         }
-        return root;
     }
+    else{  
+        TreeNode* lar = nullptr;
+        TreeNode* parLar = nullptr;
+        
+        if (temp->left->right == nullptr) {
+            lar = temp->left;
+            parLar = temp;
+        } else {
+            lar = maxVal(temp->left);
+            parLar = maxValPar(temp->left);
+        }
+        
+        temp->val = lar->val;
+        if (parLar == temp) {
+            parLar->left = lar->left;
+        } else {
+            parLar->right = lar->left;
+        }
+        lar->left = nullptr;
+        delete lar;
+    }
+}
+
+TreeNode* deleteNode(TreeNode* root, int key) {
+    if(root==nullptr) return root;
+    TreeNode* temp=root;
+    TreeNode* parent_temp=nullptr;
+    while(temp!=nullptr){
+        if(temp->val==key) break;
+        parent_temp=temp;
+        temp = key>temp->val? temp->right:temp->left;
+    }
+    if(temp==nullptr) return root;
+    if(parent_temp!=nullptr) del(root,temp,parent_temp);
+    else{
+        if (root->left == nullptr && root->right == nullptr) {
+            delete root;
+            return nullptr;
+        }
+        else if(root->left==nullptr&&root->right!=nullptr){
+            TreeNode* temppp=root;
+            root=root->right;
+            temppp->right=nullptr;
+            delete temppp;
+        }
+        else if(root->right==nullptr&&root->left!=nullptr){
+            TreeNode* temppp=root;
+            root=root->left;
+            temppp->left=nullptr;
+            delete temppp;
+        }
+        else {
+            TreeNode* lar = nullptr;
+            TreeNode* parLar = nullptr;
+            
+            if (root->left->right == nullptr) {
+                lar = root->left;
+                parLar = root;
+            } else {
+                lar = maxVal(root->left);
+                parLar = maxValPar(root->left);
+            }
+            
+            root->val = lar->val;
+            
+            if (parLar == root) {
+                parLar->left = lar->left;
+            } else {
+                parLar->right = lar->left;
+            }
+            lar->left = nullptr;
+            delete lar;
+        }
+    }
+    return root; 
+}
 };
