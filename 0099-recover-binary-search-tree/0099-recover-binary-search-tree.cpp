@@ -11,27 +11,55 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root,TreeNode* &temp,TreeNode* &p,TreeNode* &q){
-    if(root==nullptr) return;
-    solve(root->left,temp,p,q);
-    if(temp!=nullptr&&temp->val>root->val){
-        if(!p) p=temp;
-        q=root;
+void morris(TreeNode* root, TreeNode* &p,TreeNode*& q,TreeNode* &visited){
+    if(root==nullptr)return;
+    TreeNode* curr=root;
+    while(curr!=nullptr){
+        if(curr->left==nullptr){
+            if(visited!=nullptr&&visited->val>curr->val){
+                if(p==nullptr){
+                        p=visited;
+                    }
+                    q=curr;
+            }
+            visited = curr;
+            curr=curr->right;
+        }
+        else{
+            TreeNode* prev = curr->left;
+            while(prev->right&&prev->right!=curr){
+                prev=prev->right;
+            }
+            if(prev->right==nullptr){
+                prev->right=curr;
+                curr=curr->left;
+            }
+            else{
+                prev->right=nullptr;
+                if(visited!=nullptr&&visited->val>curr->val){
+                    if(p==nullptr){
+                        p=visited;
+                    }
+                    q=curr;
+                }
+                visited=curr;
+                curr = curr->right;
+            }
+        }
     }
-    temp=root;
-    solve(root->right,temp,p,q);
+
 }
     void recoverTree(TreeNode* root) {   
-        if (root==nullptr) return;
-       TreeNode* temp =nullptr;
-       TreeNode* p=nullptr;
-       TreeNode* q=nullptr;
-        solve(root,temp,p,q);
-        if (p != nullptr && q != nullptr) {
-            int temp2 = p->val;
-            p->val = q->val;
-            q->val = temp2;
-        }
+        if(root==nullptr) return;
+        if(root->left==nullptr&&root->right==nullptr) return;
+        TreeNode* p=nullptr;
+        TreeNode* q =nullptr;
+        TreeNode* visited=nullptr;
+        morris(root,p,q,visited);
+        if(p!=nullptr&&q!=nullptr){
+        int temp = p->val;
+        p->val = q->val;
+        q->val= temp;}
         return;
     }
 };
