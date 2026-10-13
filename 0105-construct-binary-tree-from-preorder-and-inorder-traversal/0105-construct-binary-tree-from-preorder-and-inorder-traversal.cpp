@@ -11,13 +11,13 @@
  */
 class Solution {
 public:
-int search(vector<int> inorder, int start, int end,int key){
+int search(vector<int>& inorder, int start, int end,int key){
     for(int i=start;i<=end;i++){
         if(inorder[i]==key) return i;
     }
     return -1;
 }
-TreeNode* build(vector<int> pre,vector<int> in, int start,int end, int& index){
+TreeNode* build(vector<int>& pre,vector<int>& in, int start,int end, int& index){
     if(start>end) return nullptr;
     TreeNode* root= new TreeNode(pre[index++]);
     if(start==end) return root;
