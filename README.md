@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -106,12 +108,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 ## Binary Search
 |  |
 | ------- |
@@ -159,4 +163,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 <!---LeetCode Topics End-->
