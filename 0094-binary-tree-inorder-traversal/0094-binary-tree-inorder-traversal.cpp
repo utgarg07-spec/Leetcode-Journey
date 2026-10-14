@@ -11,16 +11,34 @@
  */
 class Solution {
 public:
-void inOrder(TreeNode* node, vector<int>& arr){
-        if(node==nullptr) {
-        return;}
-        inOrder(node->left,arr);
-        arr.push_back(node->val);
-        inOrder(node->right,arr);
+void morrisTraversal(TreeNode* root,vector<int>& v){
+    if(root==nullptr) return;
+    TreeNode* curr = root;
+    while(curr!=nullptr){
+        if(curr->left==nullptr){
+            v.push_back(curr->val);
+            curr = curr->right;
+        }
+        else{
+            TreeNode* prev= curr->left;
+            while (prev->right != nullptr && prev->right != curr) {
+                prev = prev->right;
+            }
+            if(prev->right==nullptr){
+                prev->right=curr;
+                curr=curr->left;
+            }
+            else{
+                prev->right=nullptr;
+                v.push_back(curr->val);
+                curr=curr->right;
+            }
+        }
     }
+}
 		vector<int> inorderTraversal(TreeNode* root){
 	        vector<int> ino;
-            inOrder(root,ino);
+            morrisTraversal(root,ino);
             return ino;
 		}
     
