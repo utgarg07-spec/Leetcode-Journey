@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0485-max-consecutive-ones](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
