@@ -1,3 +1,4 @@
+
 class Solution {
 public:
 void reverseArr(vector<int>& arr,int i, int n){
@@ -10,6 +11,8 @@ void reverseArr(vector<int>& arr,int i, int n){
     }
 }
     void rotate(vector<int>& arr, int k) {
+         ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         int n = arr.size();
         if(n==0) return;
         k=k%n;
