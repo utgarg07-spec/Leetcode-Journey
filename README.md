@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
+| [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
 ## Recursion
 |  |
 | ------- |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
 | [0485-max-consecutive-ones](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 ## Hash Table
@@ -171,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+## Two Pointers
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
