@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 ## Recursion
 |  |
 | ------- |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
@@ -126,11 +128,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0069-sqrtx) |
 | [0222-count-complete-tree-nodes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 ## Newton's Method
 |  |
@@ -150,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -179,4 +184,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0283-move-zeroes) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
