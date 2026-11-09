@@ -1,18 +1,18 @@
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
-        queue<int> v1;
-        queue<int> v2;
+        vector<int> v1;
+        vector<int> v2;
         vector<int> v3;
         for(int i=0;i<nums.size();i++){
-            if(nums[i]>0) v1.push(nums[i]); 
-            if(nums[i]<0) v2.push(nums[i]);
+            if(nums[i]>0) v1.emplace_back(nums[i]); 
+            if(nums[i]<0) v2.emplace_back(nums[i]);
         }
-        while(!v1.empty()||!v2.empty()){
-            v3.push_back(v1.front());
-            v1.pop();
-            v3.push_back(v2.front());
-            v2.pop();
+        int i=0;
+        while(i<v1.size()){
+            v3.push_back(v1[i]);
+            v3.push_back(v2[i]);
+            i++;
         }
         return v3;
     }
