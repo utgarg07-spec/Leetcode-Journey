@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0283-move-zeroes) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
 ## Two Pointers
 |  |
 | ------- |
@@ -189,9 +192,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 ## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
