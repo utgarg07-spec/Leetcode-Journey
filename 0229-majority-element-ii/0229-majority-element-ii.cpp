@@ -7,12 +7,11 @@ public:
         if(n==0) return v;
         for(int i=0;i<n;i++){
             m[nums[i]]++;
-        }
-        for(const auto& it: m){
-            if(it.second > (n/3)){
-                v.push_back(it.first);
+            if(m[nums[i]]>(n/3)&&(find(v.begin(), v.end(), nums[i]) == v.end())){
+                v.push_back(nums[i]);
             }
         }
+       
         return v;
     }
 };
