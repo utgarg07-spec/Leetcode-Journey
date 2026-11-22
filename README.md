@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0437-path-sum-iii) |
+| [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 | [0968-binary-tree-cameras](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0968-binary-tree-cameras) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Binary Tree
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0199-binary-tree-right-side-view) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0429-n-ary-tree-level-order-traversal) |
+| [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Linked List
 |  |
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 ## Counting
 |  |
 | ------- |
@@ -238,4 +241,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0075-sort-colors) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
