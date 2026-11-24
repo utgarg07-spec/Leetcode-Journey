@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0145-binary-tree-postorder-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 | [0229-majority-element-ii](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0283-move-zeroes) |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 ## Counting
 |  |
@@ -245,4 +249,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
