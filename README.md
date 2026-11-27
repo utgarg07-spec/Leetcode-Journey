@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0733-flood-fill) |
 | [0968-binary-tree-cameras](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0968-binary-tree-cameras) |
+| [1020-number-of-enclaves](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1020-number-of-enclaves) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0733-flood-fill) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1020-number-of-enclaves) |
 ## Linked List
 |  |
 | ------- |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0485-max-consecutive-ones) |
 | [0704-binary-search](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0733-flood-fill) |
+| [1020-number-of-enclaves](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1020-number-of-enclaves) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
@@ -226,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0547-number-of-provinces) |
+| [1020-number-of-enclaves](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1020-number-of-enclaves) |
 ## Counting
 |  |
 | ------- |
@@ -257,4 +261,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/0733-flood-fill) |
+| [1020-number-of-enclaves](https://github.com/utgarg07-spec/Leetcode-Journey/tree/master/1020-number-of-enclaves) |
 <!---LeetCode Topics End-->
